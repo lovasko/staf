@@ -33,8 +33,8 @@ min xs = guard (isNonEmpty xs) >> return (F.minimum xs)
 
 -- | Find the maximal value of a population.
 max :: (F.Foldable f, Ord a)
-    => f a
-    -> Maybe a
+    => f a     -- ^ population
+    -> Maybe a -- ^ maximal value
 max xs = guard (isNonEmpty xs) >> return (F.maximum xs)
 
 -- | Compute the arithmetic mean of a population.
