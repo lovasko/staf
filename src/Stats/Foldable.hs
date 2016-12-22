@@ -1,3 +1,18 @@
+{- |
+Module      : Stats.Foldable
+Description : Numerical statistics for Foldable containers
+Copyright   : (c) Daniel Lovasko, 2016
+License     : OtherLicense
+
+Maintainer  : Daniel Lovasko <daniel.lovasko@gmail.com>
+Stability   : stable
+Portability : portable
+
+Stats.Foldable is a pure Haskell module that implements a safe interface
+to a set of basic numerical statistics that only assume the Foldable
+typeclass for the underlying container.
+-}
+
 module Stats.Foldable
 ( amean  -- f a -> Maybe a
 , min    -- f a -> Maybe a
