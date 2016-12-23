@@ -1,4 +1,6 @@
 # Stats.Foldable
+[![Build Status](https://travis-ci.org/lovasko/staf.svg?branch=master)](https://travis-ci.org/lovasko/staf)
+[![Code Climate](https://codeclimate.com/github/lovasko/staf/badges/gpa.svg)](https://codeclimate.com/github/lovasko/staf)
 A pure Haskell module that implements a safe interface to a set of statistical
 computations for all `Foldable` containers. Folding (i.e. _reducing_ or
 _crushing_) is a great fit for statistics, where a full data set has to be
