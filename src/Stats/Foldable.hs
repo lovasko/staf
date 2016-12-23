@@ -72,7 +72,7 @@ var xs = do
   mean <- amean xs
   return $ F.foldr (\x v -> v + (x-mean) * (x-mean)) 0 xs / size xs
 
--- Compute the covariance of two populations.
+-- | Compute the covariance of two populations.
 covar :: (F.Foldable f, Floating a)
       => f a     -- ^ first population
       -> f a     -- ^ second population
