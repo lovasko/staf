@@ -1,5 +1,5 @@
 name:                staf
-version:             0.1.0.0
+version:             1.0.0
 synopsis:            Numerical statistics for Foldable containers
 description:         Staf is a pure Haskell module that implements a safe
                      interface to a set of basic numerical statistics that
